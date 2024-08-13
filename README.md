@@ -5,4 +5,11 @@ The FFS algorithm identified four of the ten features as optimal: mean MPF, mean
 
 This higher odds ratio suggests that the selected features or feature selection methods in my model are more effective at predicting epilepsy. The significant differences observed highlight the importance of feature selection in model performance. However, the variability in results across different runs suggests that model performance may fluctuate due to factors such as data variability, outliers, or noise. To further understand and improve the model's reliability, additional analysis, including increasing the dataset size and exploring alternative modeling approaches, may be necessary. Additional results are provided in the appendices.
 
-![image](https://github.com/user-attachments/assets/c41df5c2-0b53-4255-aac2-415ac0971665)
+![image](https://github.com/user-attachments/assets/5d1c4236-af84-4e26-83d0-6c89ebadc9b5)
+Figure 1:  FFS results - The AUC as function of the number of chosen features
+
+![image](https://github.com/user-attachments/assets/b23ca46f-5814-48f4-a53f-98f9752c2032)
+Figure 2:  The ROC of the chosen model on the test data. 
+In red- the threshold that chosen using Youden J statistic.
+
+
